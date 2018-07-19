@@ -17,22 +17,23 @@ if nargin==0
     len_events=10000;
 end
 
-EVENT(len_events).AGENCY=[];
-EVENT(len_events).ID=[];
-EVENT(len_events).LON=[];
-EVENT(len_events).LAT=[];
-EVENT(len_events).DEP=[];
-EVENT(len_events).RMS=[];
-EVENT(len_events).XERR=[];
-EVENT(len_events).YERR=[];
-EVENT(len_events).ZERR=[];
-EVENT(len_events).ORIGIN=[];
-EVENT(len_events).COLOR=[];
-EVENT(len_events).MAG=[];
+EVENT(len_events).AGENCY = [];
+EVENT(len_events).ID     = [];
+EVENT(len_events).LON    = [];
+EVENT(len_events).LAT    = [];
+EVENT(len_events).DEP    = [];
+EVENT(len_events).RMS    = [];
+EVENT(len_events).XERR   = [];
+EVENT(len_events).YERR   = [];
+EVENT(len_events).ZERR   = [];
+EVENT(len_events).ORIGIN = [];
+EVENT(len_events).COLOR  = [];
+EVENT(len_events).MAG    = [];
+EVENT(len_events).WAV    = [];
 
 %%% Add phase structure with one PHASE
 
-PHASES=init_PHASE(1);
+PHASES = init_PHASE(1);
 
 for i=1:numel(EVENT)
     EVENT(i).PHASES=PHASES;

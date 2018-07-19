@@ -7,13 +7,12 @@
 %     
 % Output:
 %     index_output: array of index (should be of size 1*2 if oscillator)
-%     
-  
+
 
 function index_output=get_period(data,index_focus,flag_plot)
 
-    %%% Checks
 
+    %%% Checks
     if numel(index_focus)~=1
         error('Check index_focus, must be of length 1');
     end
@@ -23,27 +22,26 @@ function index_output=get_period(data,index_focus,flag_plot)
     end
 
     data=data(:);
-    
-    %%% Check where signs change
-    
-    diff_array=[diff(sign(data));0];
 
+
+    %%% Check where signs change
+    diff_array = [diff(sign(data));0];
     diff_array(diff_array~=0)=1;
 
-    index=1:length(diff_array);
-    index=index';
+    index        = 1:length(diff_array);
+    index        = index';
 
-    index1=index(diff_array==1);
+    index1       = index(diff_array==1);
 
-    dd=index_focus-index1;
+    dd           = index_focus-index1;
 
-    ind_left=max(index1(dd>0));
-    ind_right=min(index1(dd<0));
-    
-    index_output=[ind_left ind_right];
+    ind_left     = max(index1(dd>0));
+    ind_right    = min(index1(dd<0));
+
+    index_output = [ind_left ind_right];
+
 
     %%% Plot if asked
-    
     if flag_plot
         figure;
         hold on

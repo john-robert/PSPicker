@@ -14,30 +14,28 @@
 %     OUT_PHASES: cleaned phases
 %     new_mag: new magnitude computed after removal
 
-function [OUT_PHASES,new_mag]=cleanmag_PHASES(PHASES,n)
+function [OUT_PHASES,new_mag]=cleanmag_PHASES(PHASES, n, flag_plot)
 
 
-%%% Select PHASES that have a magnitude value
+	%%% Select PHASES that have a magnitude value
+	ind_PHASES_MAG = find(~cellfun(@isempty,{PHASES.MAG}));
+	PHASES_MAG     = PHASES(ind_PHASES_MAG);
 
-ind_PHASES_MAG=find(~cellfun(@isempty,{PHASES.MAG}));
-PHASES_MAG=PHASES(ind_PHASES_MAG);
 
-%%% Perform selection of mags
+	%%% Perform selection of mags
+	mag            = [PHASES_MAG.MAG];
+	[sel_mag,ind]  = clean_distri(mag,n,'median',3);
 
-mag=[PHASES_MAG.MAG];
-[sel_mag,ind]=clean_distri(mag,n,'median',3);
 
-%%% Retrieve PHASES and set WRITE_FLAG to 0
+	%%% Retrieve PHASES and set WRITE_FLAG to 0
+	new_mag        = mean(sel_mag);
+	if ~isempty(ind)
+	    [PHASES(ind_PHASES_MAG(ind)).WRITE_FLAG]=deal(0);
+	end
 
-new_mag=mean(sel_mag);
-if ~isempty(ind)
-    [PHASES(ind_PHASES_MAG(ind)).WRITE_FLAG]=deal(0);
-end
 
-%%% Export
-
-OUT_PHASES=PHASES;
-
+	%%% Export
+	OUT_PHASES    = PHASES;
 
 end
 

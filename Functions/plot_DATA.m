@@ -4,16 +4,19 @@
 
 function f=plot_DATA(varargin)
 
-    
-    %%% Check isnotempty
-    
-    if isempty(varargin)
-        fprintf(1,'No inputs given\n');
-        return
-    end
-    
-    %%% Parsing arguments
 
+    %%% Check is not empty
+    %switch nargin
+    %    case 0
+    %        fprintf(1,'No inputs given\n');
+    %        return;
+    %    case 1
+    %        plot_save = varargin{2};
+    %        inputargs = varargin{1};
+    %    end
+    plot_save = 1;
+
+    %%% Parsing arguments
     p = inputParser;
     defaultParam =false;
     addRequired(p,'DATA',@(x) isstruct(x));
@@ -54,13 +57,19 @@ function f=plot_DATA(varargin)
 
     origin_datenum= DATA(1).RAW(1).TIMESTART;
 
-    %%% Plot figure
 
+    %%% Plot figure
     shift=0;
     channel_cell={};
-    f=figure('KeyPressFcn',@(obj,evt) 0);
-    set(f,'visible','off');
-    hold on;
+
+    if plot_save == 0
+        f=figure('KeyPressFcn',@(obj,evt) 0);
+        set(f,'visible','off');
+        hold on;
+    elseif plot_save == 1
+        f=figure('visible','off');
+    end
+
     new_min=0;
     new_max=0;
     flag_exist=0;
@@ -254,7 +263,8 @@ function f=plot_DATA(varargin)
         end
 
     end
-    
+
+
     if flag_exist==0
         fprintf(1,'No stations can be displayed\n');
         close(f);
@@ -293,7 +303,12 @@ function f=plot_DATA(varargin)
     hold off;
     xlabel('Time (sec)','fontsize',15);
 
-
+    
+    if plot_save == 1
+        plot_name = strrep(titlename,' ','_');
+        plot_name = strrep(plot_name,':','-');
+        imwrite(f, [plot_name,'.png'])
+    end
     % limit=xlim;
     % w = waitforbuttonpress;
 

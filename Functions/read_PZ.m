@@ -16,37 +16,36 @@
 %     
 %file='/Users/baillard/_Moi/Projets/Nepal/Picking/stations_PZ.txt';
 
+
 function D=read_PZ(input_file)
 
-fid = fopen(input_file,'rt');
-A= textscan(fid, '%[^\n]','headerLines', 1);
-fclose(fid);
+    fid = fopen(input_file,'rt');
+    A= textscan(fid, '%[^\n]','headerLines', 1);
+    fclose(fid);
 
-D=struct;
+    D=struct;
+    for i=1:numel(A{1})
 
-for i=1:numel(A{1})
-    
-    str_array=strsplit(A{1}{i},':');
-    
-    station=str_array{1};
-    channel=str_array{2};
-    comp=str_array{3};
-    gain=str2double(str_array{4});
-    
-    if length(str_array)==4
-        poles=[];
-        zeros=[];
-    else
-        str_poles=strsplit(str_array{5},',');
-        str_zeros=strsplit(str_array{6},',');
-    
-        poles=cellfun(@str2double,str_poles);
-        zeros=cellfun(@str2double,str_zeros); 
+        str_array=strsplit(A{1}{i},':');
+        station=str_array{1};
+        channel=str_array{2};
+        comp=str_array{3};
+        gain=str2double(str_array{4});
+
+        if length(str_array)==4
+            poles=[];
+            zeros=[];
+        else
+            str_poles=strsplit(str_array{5},',');
+            str_zeros=strsplit(str_array{6},',');
+        
+            poles=cellfun(@str2double,str_poles);
+            zeros=cellfun(@str2double,str_zeros); 
+        end
+
+        D.(station).(channel).(strcat('comp',comp)).gain=gain;            % strcat('comp',comp) is a workaround. Matlab doesn't allow to create structures with single numbers put as substructure label.
+        D.(station).(channel).(strcat('comp',comp)).poles=poles;          % So if a station component is labeled '1', that fails, hence this workaround that also need to considered in script "compute_DISP"
+        D.(station).(channel).(strcat('comp',comp)).zeros=zeros;
     end
-    
-    D.(station).(channel).(comp).gain=gain;
-    D.(station).(channel).(comp).poles=poles;
-    D.(station).(channel).(comp).zeros=zeros;
-end
 
 end

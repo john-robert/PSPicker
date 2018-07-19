@@ -12,27 +12,28 @@
 % Example:
 %     [MAX,IND]=max_window(first_sample,last_sample,trace,flag_plot)
 
+
 function [MAX,IND]=max_window(first_sample,last_sample,data,flag_plot)
 
-[first_sample,last_sample]=check_samples(first_sample,last_sample,data);
 
-%%% Compute
+	[first_sample,last_sample] = check_samples(first_sample,last_sample,data);
 
-[MAX,IND_sc]=max(data(first_sample:last_sample));
-IND=IND_sc+first_sample-1;
 
-%%% Plot if asked
+	%%% Compute
+	[MAX,IND_sc] = max(data(first_sample:last_sample));
+	IND          = IND_sc+first_sample-1;
 
-if flag_plot
-   figure;hold on;
-   plot(data,'k');
-   [x_patch,y_patch]=borders2patch([first_sample last_sample],[min(data) max(data)]);
-   p_obj=patch(x_patch,y_patch,'k','facealpha',0.2);
-   set(p_obj,'edgecolor','none');
-   plot([IND IND],[0 MAX],'r','linewidth',2);
-   hold off
-end
 
+	%%% Plot if asked
+	if flag_plot
+	   figure;hold on;
+	   plot(data,'k');
+	   [x_patch,y_patch ] = borders2patch([first_sample last_sample],[min(data) max(data)]);
+	   p_obj              = patch(x_patch,y_patch,'k','facealpha',0.2);
+	   set(p_obj,'edgecolor','none');
+	   plot([IND IND],[0 MAX],'r','linewidth',2);
+	   hold off
+	end
 
 end
 

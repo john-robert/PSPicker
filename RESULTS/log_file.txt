@@ -1,0 +1,354 @@
+Processing EVENT 2016-08-03 16:11:53
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-10 19:06:15
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-10 21:14:42
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-10 22:59:36
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-11 03:59:51
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-11 15:11:13
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-11 15:11:50
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-11 18:40:03
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-12 05:06:20
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-14 17:34:18
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-15 16:17:25
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-16 07:14:02
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2016-09-16 20:26:58
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-01 04:25:15
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-01 14:07:04
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-01 21:07:27
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-02 04:31:23
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-02 04:44:22
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-02 04:55:29
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-02 18:04:08
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-02 19:08:44
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 04:06:34
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 04:45:14
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 04:53:00
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 05:46:14
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 10:12:21
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 13:49:27
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 20:17:33
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 20:58:12
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 22:19:30
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-03 23:04:21
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 00:23:13
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 00:57:39
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 03:58:20
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 04:16:08
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 04:42:19
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 04:49:11
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 04:58:44
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 05:40:48
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 06:22:13
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 08:08:02
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 08:45:05
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 12:46:05
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 14:49:44
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-04 18:03:56
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-05 04:05:51
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-05 07:25:04
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-05 16:17:21
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-05 22:37:35
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-06 02:02:31
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-06 09:12:58
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-06 10:07:08
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 00:56:21
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 02:52:33
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 09:53:11
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 10:38:23
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 17:40:56
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-03-07 19:51:03
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+
+Processing EVENT 2017-08-04 05:51:54
+Step 1: initial cleaning and relocation of event
+Step 2: loop over mainfile(s) for pick refinement
+Step 3: amplitude and magnitude calculations
+Step 4: write output and store accordingly
+

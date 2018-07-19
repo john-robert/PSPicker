@@ -1,7 +1,7 @@
 %%% function to extract specific phase structure from a phase structure
 %
 % Input:
-%     IN: Input phase strucrure
+%     IN: Input phase structure
 %     varargin: station, channel or type to select the criterion
 %     
 % Output:
@@ -29,10 +29,11 @@ function [OUT,ind]=get_PHASE(IN,varargin)
    station=p.Results.station;
    chan=p.Results.chan;
    type=p.Results.type;
-   
+
    all_chan={IN(:).CHAN}';
    all_station={IN(:).STATION}';
    all_type={IN(:).TYPE}';
+
    
       all_chan=inc_nan(all_chan);
       all_station=inc_nan(all_station);
@@ -47,20 +48,17 @@ function [OUT,ind]=get_PHASE(IN,varargin)
    if strcmp(type,default_char);
        type=all_type;
    end
-       
-  cmd=ismember(all_station,station) & ...
-  ismember(all_chan,chan) & ...
-  ismember(all_type,type);
 
 
-  ind=find(cmd==1);
-  OUT=IN(ind); 
-   
+   cmd=ismember(all_station,station) & ismember(all_chan,chan) & ismember(all_type,type);
+   ind=find(cmd==1);
+   OUT=IN(ind); 
 end
+
 
 function out=inc_nan(in)
 
-out=in;
-out(cellfun(@isempty,in),1)={'NaN'};
+   out=in;
+   out(cellfun(@isempty,in),1)={'NaN'};
 
 end
