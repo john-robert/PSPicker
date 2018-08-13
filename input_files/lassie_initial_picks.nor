@@ -108,61 +108,6 @@
  KNR29    S   0A  1906 31.63                                                    
  KNR30    S   0A  1906 25.91                                                    
 
- 2016 0910 2114 42.9 L  76.273   7.149  0.0  AWI 26                            1
- STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
- KNR01    P   0A  2114 55.98                                                    
- KNR02    P   0A  2114 56.09                                                    
- KNR03    P   0A  2114 53.49                                                    
- KNR04    P   0A  2114 53.75                                                    
- KNR05    P   0A  2114 50.74                                                    
- KNR06    P   0A  2114 50.94                                                    
- KNR07    P   0A  2114 46.74                                                    
- KNR08    P   0A  2114 46.55                                                    
- KNR09    P   0A  2114 44.99                                                    
- KNR10    P   0A  2114 45.27                                                    
- KNR11    P   0A  2114 47.06                                                    
- KNR12    P   0A  2114 47.40                                                    
- KNR13    P   0A  2114 49.53                                                    
- KNR14    P   0A  2114 49.75                                                    
- KNR15    P   0A  2114 51.75                                                    
- KNR16    P   0A  2114 51.98                                                    
- KNR17    P   0A  2114 52.27                                                    
- KNR18    P   0A  2114 49.37                                                    
- KNR19    P   0A  2114 44.30                                                    
- KNR20    P   0A  2114 48.64                                                    
- KNR21    P   0A  2114 48.45                                                    
- KNR22    P   0A  2114 49.73                                                    
- KNR23    P   0A  2114 47.34                                                    
- KNR28    P   0A  2114 48.59                                                    
- KNR29    P   0A  2114 52.22                                                    
- KNR30    P   0A  2114 48.95                                                    
- KNR01    S   0A  2115  6.00                                                    
- KNR02    S   0A  2115  6.20                                                    
- KNR03    S   0A  2115  1.64                                                    
- KNR04    S   0A  2115  2.09                                                    
- KNR05    S   0A  2114 56.81                                                    
- KNR06    S   0A  2114 57.16                                                    
- KNR07    S   0A  2114 49.73                                                    
- KNR08    S   0A  2114 49.40                                                    
- KNR09    S   0A  2114 46.74                                                    
- KNR10    S   0A  2114 47.30                                                    
- KNR11    S   0A  2114 50.30                                                    
- KNR12    S   0A  2114 50.90                                                    
- KNR13    S   0A  2114 54.67                                                    
- KNR14    S   0A  2114 55.05                                                    
- KNR15    S   0A  2114 58.59                                                    
- KNR16    S   0A  2114 58.99                                                    
- KNR17    S   0A  2114 59.49                                                    
- KNR18    S   0A  2114 54.38                                                    
- KNR19    S   0A  2114 45.43                                                    
- KNR20    S   0A  2114 53.10                                                    
- KNR21    S   0A  2114 52.77                                                    
- KNR22    S   0A  2114 55.02                                                    
- KNR23    S   0A  2114 50.81                                                    
- KNR28    S   0A  2114 53.01                                                    
- KNR29    S   0A  2114 59.41                                                    
- KNR30    S   0A  2114 53.64                                                    
-
  2016 0910 2259 36.0 L  76.662   7.194  0.0  AWI 26                            1
  STAT SP IPHASW D HRMM SECON CODA AMPLIT PERI AZIMU VELO AIN AR TRES W  DIS CAZ7
  KNR01    P   0A  2259 43.54                                                    

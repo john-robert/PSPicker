@@ -3,7 +3,7 @@
 #####################
 
 # Nordic file or directory containing input nordic files 
-input_nordic='/Users/jscholz/Dropbox/JOHNS_WORK/programming/PSPicker/input_files/lassie_initial_picks.nor'
+input_nordic='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/lassie_initial_picks.nor'
 
 # SDS (seiscomp data structure) path
 sds_path='/Users/jscholz/data/KNIPA_SUBSET/'
@@ -12,10 +12,10 @@ sds_path='/Users/jscholz/data/KNIPA_SUBSET/'
 hyp='/Users/jscholz/src/seisan_10.4.1/PRO/hyp'
 
 # SEISAN STATION0.HYP path
-station_file='/Users/jscholz/Dropbox/JOHNS_WORK/programming/PSPicker/input_files/STATION0.HYP'
+station_file='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/STATION0.HYP'
 
 # Instrumental Response File 
-station_PZ='/Users/jscholz/Dropbox/JOHNS_WORK/programming/PSPicker/input_files/stations_PZ.txt'
+station_PZ='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/stations_PZ.txt'
 
 # Results folder name for storing output S-files and some others (give realtive path name) - this is not overwritten if existant!
 results_folder='./RESULTS'
@@ -91,51 +91,51 @@ minphase_amp=3
 # The newest version should account for this, there are now only 5 entries needed.
 #Stat   Pick   Chan              freqs   window 
 KNR01 : P    : BHZ,        BDH : A     : B    
-KNR01 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR01 : S    : BHZ,BH1,BH2     : A     : B    
 KNR02 : P    : BHZ,        BDH : A     : B    
-KNR02 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR02 : S    : BHZ,BH1,BH2     : A     : B    
 KNR03 : P    : BHZ,        BDH : A     : B    
-KNR03 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR03 : S    : BHZ,BH1,BH2     : A     : B    
 KNR04 : P    : BHZ,        BDH : A     : B    
-KNR04 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR04 : S    : BHZ,BH1,BH2     : A     : B    
 KNR05 : P    : BHZ,        BDH : A     : B    
-KNR05 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR05 : S    : BHZ,BH1,BH2     : A     : B    
 KNR06 : P    : BHZ,        BDH : A     : B    
-KNR06 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR06 : S    : BHZ,BH1,BH2     : A     : B    
 KNR07 : P    : BHZ,        BDH : A     : B    
-KNR07 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR07 : S    : BHZ,BH1,BH2     : A     : B    
 KNR08 : P    : BHZ,        BDH : A     : B    
-KNR08 : S    : BHZ,    BH2,BDH : A     : B    
+KNR08 : S    : BHZ,    BH2     : A     : B    
 KNR09 : P    :             BDH : A     : B    
-KNR09 : S    :     BH1,BH2,BDH : A     : B    
+KNR09 : S    :     BH1,BH2     : A     : B    
 KNR10 : P    : BHZ,        BDH : A     : B    
-KNR10 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR10 : S    : BHZ,BH1,BH2     : A     : B    
 KNR11 : P    : BHZ,        BDH : A     : B    
-KNR11 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR11 : S    : BHZ,BH1,BH2     : A     : B    
 KNR12 : P    : BHZ,        BDH : A     : B    
-KNR12 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR12 : S    : BHZ,BH1,BH2     : A     : B    
 KNR13 : P    : BHZ,        BDH : A     : B    
-KNR13 : S    : BHZ,    BH2,BDH : A     : B    
+KNR13 : S    : BHZ,    BH2     : A     : B    
 KNR14 : P    :             BDH : A     : B    
-KNR14 : S    :     BH1,BH2,BDH : A     : B    
+KNR14 : S    :     BH1,BH2     : A     : B    
 KNR15 : P    :             BDH : A     : B    
-KNR15 : S    :             BDH : A     : B    
+KNR15 : S    :                 : A     : B    
 KNR16 : P    : BHZ,        BDH : A     : B    
-KNR16 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR16 : S    : BHZ,BH1,BH2     : A     : B    
 KNR17 : P    : BHZ,        BDH : A     : B    
-KNR17 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR17 : S    : BHZ,BH1,BH2     : A     : B    
 KNR18 : P    : BHZ,        BDH : A     : B    
-KNR18 : S    : HHZ,HH1,HH2,HDH : A     : B    
+KNR18 : S    : HHZ,HH1,HH2     : A     : B    
 KNR19 : P    : BHZ,        BDH : A     : B    
-KNR19 : S    : BHZ,BH1,BH2,BDH : A     : B    
+KNR19 : S    : BHZ,BH1,BH2     : A     : B    
 KNR20 : P    : HHZ,        BDH : A     : B    
-KNR20 : S    : HHZ,HH1,    HDH : A     : B    
+KNR20 : S    : HHZ,HH1,        : A     : B    
 KNR21 : P    : HHZ             : A     : B    
 KNR21 : S    : HHZ,HH1,HH2     : A     : B    
 KNR22 : P    : HHZ,        HDH : A     : B    
-KNR22 : S    : HHZ,HH1,HH2,HDH : A     : B    
+KNR22 : S    : HHZ,HH1,HH2     : A     : B    
 KNR23 : P    : HHZ,        HDH : A     : B    
-KNR23 : S    : HHZ,HH1,HH2,HDH : A     : B    
+KNR23 : S    : HHZ,HH1,HH2     : A     : B    
 KNR28 : P    : HHZ             : A     : B    
 KNR28 : S    : HHZ,HH1,HH2     : A     : B    
 KNR29 : P    : HHZ             : A     : B    
