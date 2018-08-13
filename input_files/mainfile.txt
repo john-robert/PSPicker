@@ -3,19 +3,19 @@
 #####################
 
 # Nordic file or directory containing input nordic files 
-input_nordic='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/lassie_initial_picks.nor'
+input_nordic='/Users/mmeier/Documents/PSPicker/input_files/lassie_initial_picks.nor'
 
 # SDS (seiscomp data structure) path
-sds_path='/Users/jscholz/data/KNIPA_SUBSET/'
+sds_path='/Volumes/gsys_seismology1/SEISAN/WAV/KNIPA_NEW_SPLIT3600_DOWNSAMPLED50/'
 
 # SEISAN HYPOCENTER path
 hyp='/Users/jscholz/src/seisan_10.4.1/PRO/hyp'
 
 # SEISAN STATION0.HYP path
-station_file='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/STATION0.HYP'
+station_file='/Users/mmeier/Documents/PSPicker/input_files/STATION0.HYP'
 
 # Instrumental Response File 
-station_PZ='/Users/jscholz/Drive/JOHNS_WORK/programming/PSPicker/input_files/stations_PZ.txt'
+station_PZ='/Users/mmeier/Documents/PSPicker/input_files/stations_PZ.txt'
 
 # Results folder name for storing output S-files and some others (give realtive path name) - this is not overwritten if existant!
 results_folder='./RESULTS'
