@@ -172,7 +172,7 @@ for (( j=year_start; j<=year_end; j++ )); do
 			
 				for network_s in "${network[@]}"; do 
 			
-					declare -a data_path=(`printf "%s%s/%s/%s/%s/" $sds_path $j "$network_s" "$station_s" "$comp_s"`)
+					declare -a data_path=(`printf "%s%s/%s/%s/%s??/" $sds_path $j "$network_s" "$station_s" "$comp_s"`)
 					wav_name=`printf "*%s.mseed" $i3`
 					true_file_list=`ls $data_path$wav_name`
 
